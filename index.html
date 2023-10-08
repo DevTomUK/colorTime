@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="DevTomUK">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Time</title>
+</head>
+<body style="font-family:'Courier New', Courier, monospace">
+
+    <h1>Color Time</h1>
+        <p>Color Time uses a simple javascript function to convert the current time in to an RGB value, then applies
+        it to a variable, which can be used to style any element properties by using a class name.
+        <br><br>
+        By splitting the color values down to segments of time for every 100 milliseconds, this ensures a smooth transition in color.
+        <br><br>
+        The function is completed every 100ms to update the style.
+        </p>
+        <br>
+        <hr>
+        <br>
+    <h2>Instructions:</h2>
+        <p>To use this color changing variable, copy the script 
+        "colortime.js" in to your source folder.
+        <br><br>
+        Add the script in to your project with 
+        <strong>&lt;script src="colortime.js"&gt;&lt;/script&gt;</strong>.
+        <br><br>
+        Use the class "colorTime" on the element you want it applied to. (see div below for example).
+        <br><br>
+        To change the name of the class you want to use or the property of the element, 
+        change them on the first section of the colortime.js code</p>
+        <br>
+        <hr>
+        <br>
+
+    <div class="colorTime" style="width:60vw;height:20vh;margin:auto;"></div>
+
+        <br>
+        <hr>
+        <br>
+
+    <h3 style="text-align:center;">Created by Tom at <a href="https://www.devtom.co.uk">www.devtom.co.uk</a></h3>
+
+    <script src="colortime.js"></script>
+</body>
+</html>
